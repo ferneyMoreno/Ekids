@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body {
+    background-color:floralwhite;
+    border: 5px ridge violet;
+    margin: 25px 25px 40px 25px;
+    padding: 30px 25px 15px 25px;
+}
+.my-movies{
+    background-color:lavender;
+    border: 20px double darkcyan;
+    margin: 20px 15px 20px 15px;
+    padding: 22px 13px 25px 13px;
+}
+.About-me{
+    background-color:peachpuff;
+    border: 12px outset cornflowerblue;
+    margin: 13px 13px 23px 13px;
+    padding: 45px 45px 45px 45px;
+}
+
+h1{
+    color:blueviolet;
+    font-size:60px;
+    font-family:cursive;
+    text-align: center;
+}
+h2{
+    color:dodgerblue;
+    font-size:45px;
+}
+h2 span{
+    color:darkslateblue;
+    font-size:50px;
+}
+h3{
+    color:hotpink;
+    font-size:45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:right;
+}
+h3 span{
+    color:deepskyblue;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+ol{
+    color:blueviolet;
+    font-size:30px;
+    font-family:fantasy;
+    text-align: center;
+}
+ol span{
+    color:aqua;
+    font-size:33px;
+    font-family:fantasy;
+    text-align: center;
+}
+h4{
+    color:firebrick;
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+h4 span{
+    color:blueviolet;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ ul{
+    color:chocolate;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ ul span{
+    color:deepskyblue;
+    font-size: 20px;
+    font-family:monospace;
+ }
+ p{
+    color:crimson;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+ }
+ p span{
+    color:palevioletred;
+    font-size:48px ;
+ }
+ .item-gallery{
+    display: inline-block;
+    width:45%;
+    height: 350px;
+    overflow: hidden;
+ }
+ .item-gallery img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    transition: all 0.5s linear;
+ }
+ .item-gallery:hover img{
+    transform: scale(1.5);
+ }
+ 
+ .btn{
+    text-decoration: none;
+    color:aquamarine;
+    background-color:rgb(118, 154, 223);
+    padding:3px 3px ;
+ }
+ .btn:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size:30px;
+ }
+ .cats{
+    display:inline-table;
+    width:50% ;
+    height: 250px ;
+    
+ }
+ .fanny-cats{
+    overflow:hidden ;
+    height:200px ;
+    width: 50%;
+ }
+ .fanny-cats img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    transition: all 1.7s;
+ }
+ .fanny-cats:hover img{
+    transform:scale(1.25);
+
+ }
+ .gallery-buttons{
+    width: 20%;
+    display: inline-block;
+ }
+ .gallery-container{
+    height:800px;
+ }
+ .galleries{
+    width: 60%;
+    display:inline-block;
+    position:relative
+ }
+ .gallery{
+    position:absolute;
+    display:none;
+ }
+ .show-gallery{
+   display:block;
+ }
+ 
